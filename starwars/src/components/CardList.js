@@ -39,6 +39,4 @@ const CardList = () => {
     );
 };
 
-//! error: CharacterCard's children need unique "key" prop
-
 export default CardList;
