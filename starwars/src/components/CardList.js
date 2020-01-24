@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import CharacterCard from "./CharacterCard";
 import axios from "axios";
+import styled from "styled-components";
+
 
 //* API url: "https://swapi.co/api/people/"
 //* data>resultsArray>characterObjects>
