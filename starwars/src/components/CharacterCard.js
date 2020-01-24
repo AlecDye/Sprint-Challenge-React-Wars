@@ -18,6 +18,7 @@ const CharacterCard = (props) => {
         <div>
             <NameContainer>
                 <h2>{props.name}</h2>
+                <p>{props.birth_year}</p>
                 <p>Height: {props.height} cm</p>
                 <p>Mass: {props.mass} kg</p>
             </NameContainer>

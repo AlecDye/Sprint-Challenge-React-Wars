@@ -16,7 +16,7 @@ const CardList = () => {
             .then(response => {
                 // console.log(response)
                 setState(response.data.results)
-                // console.log(response.data.results)
+                console.log(response.data.results)
             })
             .catch(error => {
                 console.log("Data not returning", error)
@@ -24,10 +24,12 @@ const CardList = () => {
     }, []);
     return (
         <div>
-            {state.map(character => {
+            {state.map((character, index) => {
                 return (
                     <CharacterCard
+                        key={index}
                         name={character.name}
+                        birth_year={character.birth_year}
                         height={character.height}
                         mass={character.mass}
                     />
