@@ -4,7 +4,7 @@ import axios from "axios";
 
 //* API url: "https://swapi.co/api/people/"
 //* data>resultsArray>characterObjects>
-//* name, birth_year, homeworld, species
+//* name, birth_year, height, mass
 
 const CardList = () => {
     const [state, setState] = useState([]);
@@ -26,11 +26,10 @@ const CardList = () => {
                 return (
                     <CharacterCard
                         name={character.name}
-                        dob={character.birth_year}
-                        home={character.homeworld}
-                        species={character.species}
+                        height={character.height}
+                        mass={character.mass}
                     />
-                )
+                );
             })}
         </div>
     );

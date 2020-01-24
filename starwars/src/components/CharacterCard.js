@@ -1,15 +1,15 @@
 import React from "react";
 
-//* name, birth_year, homeworld, species
-//TODO: structure card based on props
+//* name, birth_year, height, mass
+
 const CharacterCard = (props) => {
+    // console.log(props)
     return (
         <div>
             <h2>{props.name}</h2>
             <div>
-                <p>{props.birth_year}</p>
-                <p>{props.homeworld}</p>
-                <p>{props.species}</p>
+                <p>{props.height} cm</p>
+                <p>{props.mass} kg</p>
             </div>
         </div>
     );
