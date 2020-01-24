@@ -26,28 +26,38 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+A: React is a JS library solves the issue that DOM manipulation can be demanding for performance. It updates the DOM only if the state (data) changes,  For example: posting a new comment on facebook automatically adds a new comment box in the comment section. React is also not opinionated and can work with pure JS and other JS libraries.
+
 - [ ] What does it mean to _think_ in react?
+
+A: React works best when you think about the app as you are building it. You need to consider the state (what data you are recieving and where you are going to manpuliate that data) you are receiving while you build out components for your app.
 
 - [ ] Describe state.
 
+A: State is data with the potential to change.  We can take advantage of a change in state to run conditional code in our components.
+
 - [ ] Describe props.
 
+A: Props are data that is read-only or doesn't change.  Because of this it is easily passed into our components and reusable.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+A: Side effects are anything that affect something outside the scope of the function being executed. You can sync effects via "useEffect" which runs whenever state changes.
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
-- [ ] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
-- [ ] Change directories into `./starwars` (`cd starwars`) and run `yarn install` or `npm install` to retrieve all needed dependencies.
-- [ ] Once you have installed the _node_modules_, run `yarn start` or `npm start` to get your server up and running.
-- [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
+- [X] Create a forked copy of this project.
+- [X] Add TL as collaborator on Github.
+- [X] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
+- [X] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
+- [X] Change directories into `./starwars` (`cd starwars`) and run `yarn install` or `npm install` to retrieve all needed dependencies.
+- [X] Once you have installed the _node_modules_, run `yarn start` or `npm start` to get your server up and running.
+- [X] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
 Follow these steps for completing your project.
-- [ ] Implement the project on this Branch, **committing progress & changes often.**
-- [ ] Push commits: `git push origin <firstName-lastName>`.
+- [X] Implement the project on this Branch, **committing progress & changes often.**
+- [X] Push commits: `git push origin <firstName-lastName>`.
 
 Follow these steps for completing your project:
 
